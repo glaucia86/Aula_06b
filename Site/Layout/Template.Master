@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Template.master.cs" Inherits="Site.Layout.Template" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="../Style/estilo.css" rel="stylesheet" />
+    <link href="../Bootstrap/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../css/jquery-ui-1.10.3.custom.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    
+    <script src="../Bootstrap/Scripts/jquery-1.9.0.min.js"></script>
+    <script src="../Bootstrap/Scripts/bootstrap.min.js"></script>
+
+    <form id="form1" runat="server">
+    <div class="pagina">
+        <h3>Projeto Controle de Produtos</h3>
+        
+        <ul>
+            <li><a href="/Pages/Cadastro.aspx">Cadastrar Produtos</a></li>
+            <li><a href="/Pages/Consulta.aspx">Consultar Produtos</a></li>
+        </ul>
+        <asp:ContentPlaceHolder ID="contentPrincipal" runat="server">
+            <p>
+                Bem Vindo ao Site
+            </p>
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

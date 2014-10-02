@@ -1,0 +1,14 @@
+﻿body {
+    font-family: Verdana;
+    font-size: 9pt;
+    padding: 30px;
+    background-color: black;
+}
+
+.pagina {
+    width: 0 auto;
+    height: 0 auto;
+    background-color: #E8E8E8;
+    padding: 20px;
+    border: 2px solid #ccc;
+}

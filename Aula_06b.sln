@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Site", "Site\Site.csproj", "{83FB99F1-5DD1-4C3D-BA03-23C7DCB952AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{06E08931-4971-451F-9303-C2DC87C1DBFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83FB99F1-5DD1-4C3D-BA03-23C7DCB952AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83FB99F1-5DD1-4C3D-BA03-23C7DCB952AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83FB99F1-5DD1-4C3D-BA03-23C7DCB952AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83FB99F1-5DD1-4C3D-BA03-23C7DCB952AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06E08931-4971-451F-9303-C2DC87C1DBFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E08931-4971-451F-9303-C2DC87C1DBFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E08931-4971-451F-9303-C2DC87C1DBFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E08931-4971-451F-9303-C2DC87C1DBFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
