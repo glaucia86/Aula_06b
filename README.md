@@ -1,4 +1,4 @@
-Aula_06b
+Aula - 06: Parte II
 ========
 
 Um pequeno projeto com Relacionamentos entre entidades. Componentes dinâmicos em Asp.Net (WebForms)
